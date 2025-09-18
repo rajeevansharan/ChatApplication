@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Chat</title>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client/dist/sockjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stompjs/lib/stomp.min.js"></script>
+    <script src="chat.js"></script>
+</head>
+<body>
+<h1>WebSocket Chat</h1>
+<input id="messageInput" type="text" placeholder="Type a message">
+<button onclick="sendMessage()">Send</button>
+<ul id="messages"></ul>
+</body>
+</html>

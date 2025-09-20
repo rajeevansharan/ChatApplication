@@ -13,7 +13,7 @@ public class ChatPublisher {
     }
 
     public void publish(String channel,String message) {
-        redisTemplate.convertAndSend("/topic/message", message);
+        redisTemplate.convertAndSend("chatroom", message);
     }
 
 }

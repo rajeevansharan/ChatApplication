@@ -15,7 +15,6 @@ public class ChatController {
 
     @MessageMapping("/chat")
     public void handleChat(String message) {
-
         chatPublisher.publish("chatroom", message); // send messages to Redis
     }
 }

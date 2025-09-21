@@ -62,7 +62,8 @@ http://localhost:8080
 ```
 
 
-###🔌 WebSocket Endpoints
+### WebSocket Endpoints
+
 WebSocket Endpoint:
 ```bash
 ws://localhost:8080/ws

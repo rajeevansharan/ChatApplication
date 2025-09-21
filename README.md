@@ -43,26 +43,45 @@ src/main/java/com/example/websocket
 └── Application.java # Main Spring Boot application
 ```
 
-Start Redis
-
+### Start Redis
 Make sure Redis is running locally or via Docker:
+```bash
 docker run -d -p 6379:6379 redis
+```
 
 Build and Run the App
+```bash
 mvn spring-boot:run
+```
+
 
 The app will start on:
+
+```bash
 http://localhost:8080
+```
 
-🔌 WebSocket Endpoints
-WebSocket Endpoint: ws://localhost:8080/ws
-Client → Server: /app/chat
-Server → Clients (broadcast): /topic/messages
 
-🧪 Testing the App
+###🔌 WebSocket Endpoints
+WebSocket Endpoint:
+```bash
+ws://localhost:8080/ws
+```
+Client → Server: 
+```bash
+/app/chat
+```
+Server → Clients (broadcast):
+```bash
+/topic/messages
+```
+
+
+### 🧪 Testing the App
 You can test with any WebSocket client (e.g., Postman, websocat, or a simple HTML frontend).
 
 Example Frontend (HTML + SockJS + StompJS)
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -96,6 +115,7 @@ Example Frontend (HTML + SockJS + StompJS)
   </script>
 </body>
 </html>
+```
 
 
 

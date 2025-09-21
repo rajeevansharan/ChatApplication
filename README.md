@@ -17,7 +17,7 @@ It allows messages to be broadcast across multiple server instances, making it s
 
 ## 🛠️ Tech Stack
 
-- **Java 17+**
+- **Java 21**
 - **Spring Boot** (WebSocket, Data Redis)
 - **Redis** (Pub/Sub)
 - **Maven** (build tool)

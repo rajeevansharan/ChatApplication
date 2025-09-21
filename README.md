@@ -128,6 +128,46 @@ Run multiple instances of this application (e.g., with different ports:
 - Connect them to the same Redis server.  
 - Messages published on one instance will be received and broadcast by all others.
 
+## 🔮 Future Improvements
+
+1. **Authentication & Authorization**  
+   - Integrate user login using Spring Security or JWT.  
+   - Allow only authenticated users to send/receive messages.
+
+2. **Private & Group Chats**  
+   - Implement direct messages between two users.  
+   - Add support for multiple chat rooms or group chats.
+
+3. **Message Persistence**  
+   - Store chat history in a database (PostgreSQL, MongoDB).  
+   - Allow users to see past messages when they reconnect.
+
+4. **Typing Indicators & Read Receipts**  
+   - Show when a user is typing.  
+   - Indicate when a message is read by the recipient(s).
+
+5. **File Sharing & Multimedia Support**  
+   - Allow users to send images, videos, or documents via WebSocket or HTTP endpoints.
+
+6. **Frontend Improvements**  
+   - Build a responsive, interactive chat UI using React, Angular, or Vue.js.  
+   - Add notifications for new messages.
+
+7. **Message Encryption**  
+   - End-to-end encryption for secure message transmission.
+
+8. **Scalability & Performance Enhancements**  
+   - Deploy multiple app instances behind a load balancer.  
+   - Optimize Redis pub/sub channels for high traffic.  
+   - Implement Redis clustering for fault tolerance.
+
+9. **Monitoring & Analytics**  
+   - Add dashboards to monitor active users, messages per second, and server performance.  
+   - Log message delivery metrics and errors.
+
+10. **Push Notifications**  
+    - Integrate Firebase Cloud Messaging or Web Push API for notifications when users are offline.
+
 
 
 

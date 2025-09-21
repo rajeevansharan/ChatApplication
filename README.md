@@ -120,14 +120,13 @@ Example Frontend (HTML + SockJS + StompJS)
 
 
 
-🌍 Scaling Across Multiple Servers
+## 🌍 Scaling Across Multiple Servers
 
-Run multiple instances of this application (e.g., with different ports: server.port=8081, server.port=8082).
+Run multiple instances of this application (e.g., with different ports:  
+`server.port=8081`, `server.port=8082`).
 
-Connect them to the same Redis server.
-
-Messages published on one instance will be received and broadcast by all others.
-
+- Connect them to the same Redis server.  
+- Messages published on one instance will be received and broadcast by all others.
 
 
 

@@ -24,6 +24,7 @@ It allows messages to be broadcast across multiple server instances, making it s
 
 ---
 
+```
 ## 📂 Project Structure
 src/main/java/com/example/websocket
 │
@@ -40,6 +41,7 @@ src/main/java/com/example/websocket
 │ └── ChatSubscriber.java # Listens to Redis messages
 │
 └── Application.java # Main Spring Boot application
+```
 
 Start Redis
 
